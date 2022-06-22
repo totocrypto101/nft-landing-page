@@ -38,6 +38,14 @@ body {
   padding: 1rem 2rem;
 }
 
+.terms {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
 /* HEADER */
 
 header {
