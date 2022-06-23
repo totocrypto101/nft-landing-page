@@ -49,59 +49,182 @@
             </div>
           </div>
         </header>
-    
-        <section class="AboutUs">
-            <H1></H1>
+        <br>
+        <html>
+          <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+          }
+          
+          html {
+            box-sizing: border-box;
+          }
+          
+          *, *:before, *:after {
+            box-sizing: inherit;
+          }
+          
+          .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+          
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+          }
+          
+          .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+          }
+          
+          .container {
+            padding: 0 16px;
+          }
+          
+          .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          .title {
+            color: grey;
+          }
+          
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          .button:hover {
+            background-color: rgb(141, 126, 59);
+          }
+          
+          @media screen and (max-width: 500px) {
+            .column {
+              width: 80%;
+              display: block;
+            }
+          }
+          </style>
+          </head>
+          <body>
+          
+          <div class="about-section">
+            <h1>About Us</h1>
+            <br>
+            <p>We design NFT collectible cards that bring together a community of the best traders in the world.</p>
+            <p>Crypto Kings Collection 1st Edition is our latest project that aims to disrupt the cryptocurrency space as the best NFT community project.</p>
+          </div>
+          <br>
+          <h2 style="text-align:center">Our Team</h2>
+          <br>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/Team pics/Baron.jpg" alt="Baron" style="width:100%">
+                <br>
+                <div class="container">
+                  <h2>Baron Toto Ampereza</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p></p>
+                  <p></p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="images/Team pics/Dapho.jpg" alt="Dapho" style="width:100%">
+                <br>
+                <div class="container">
+                  <h2>Daphine Ariho</h2>
+                  <p class="title">Co-Founder  & Art Director</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
             
-        </section>
-    
-        <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-        <script src="js/countdown.js"></script>
-        <script src="js/app.js"></script>
-      </body>
-    
-    
-    <footer>
-          <section>
-           <div class="container">
-             <div class="menu">
-               <a
-                 href="https://discord.gg/BkwFyeWU"
+            <div class="column">
+              <div class="card">
+                <img src="images/Team pics/Nabs.jpg" alt="Nabs" style="width:100%">
+                <br>
+                <div class="container">
+                  <h2>Hamisi Nabaasa</h2>
+                  <p class="title">Designer</p>
+                  <p></p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <section>
+             <div class="container">
+               <div class="menu">
+                 <a
+                   href="https://discord.gg/BkwFyeWU"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                 >
+                 <img src="images/header/discord.webp" alt="Discord" />
+                 </a>
+                 <a
+                 href="https://twitter.com/CryptoKingsC_"
                  target="_blank"
                  rel="noopener noreferrer"
-               >
-               <img src="images/header/discord.webp" alt="Discord" />
-               </a>
-               <a
-               href="https://twitter.com/CryptoKingsC_"
-               target="_blank"
-               rel="noopener noreferrer"
-               >
-               <img src="images/header/twitter.webp" alt="Twitter" />
-               </a>
-               <a
-               href="https://opensea.io/collection/cryptokingsclub1stedition"
-               target="_blank"
-               rel="noopener noreferrer"
-               >
-               <img src="images/header/opensea.webp" alt="Opensea" />
-               </a>   
+                 >
+                 <img src="images/header/twitter.webp" alt="Twitter" />
+                 </a>
+                 <a
+                 href="https://opensea.io/collection/cryptokingsclub1stedition"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 >
+                 <img src="images/header/opensea.webp" alt="Opensea" />
+                 </a>   
+               </div>
+               <br>
+               <div class="">
+                  <p id="terms" class="copyright text-right">
+                      <a class="link" href="terms.html">CKC Terms & Conditions</a>
+                      <br>
+                        <a class="link" href="AboutUs.html">About us</a>
+                      <br>
+                      <br>
+                      <p>
+                        ©2022 CryptoKingsClub - All rights Reserved
+                      </p>   
+                  </p>
+      
+               </div>
              </div>
-             <br>
-             <div class="col-lg-16 col-sm-6 col-6">
-                <p id="terms" class="copyright text-right">
-                    <a class="link" href="terms.html">CKC Terms & Conditions</a>
-                    <br>
-                      <a class="link" href="AboutUs.html">About us</a>
-                    <br>
-                    <br>
-                    <p>
-                      ©2022 CryptoKingsClub - All rights Reserved
-                    </p>   
-                </p>
-           </div>
-          </section> 
+            </section> 
+           </footer>   
+        </body>
+      </html>      
+          
+          </body>
+          </html>
     </footer>   
       </body>
+      
     </html>
     
